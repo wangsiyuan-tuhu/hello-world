@@ -1,0 +1,27 @@
+1、
+类型：Function
+控制器：SystemLog
+方法名：SelectWarningLog    查询过期预警日志
+
+2.
+类型：Module
+控制器：Certificate
+方法名：CertificateWarningQuery    
+菜单名：过期预警
+parentid：证书管理
+
+类型：Function
+控制器：Certificate
+方法名：CertificateWarningSet      查询证书过期预警设置
+
+类型：Function
+控制器：Certificate
+方法名：SubmitWarning              提交过期预警设置
+
+类型：Function
+控制器：Certificate
+方法名：CertificateWarningLog      证书过期预警日志
+
+类型：Function
+控制器：Certificate
+方法名：SelectCertificateWarning   查询证书过期预警
